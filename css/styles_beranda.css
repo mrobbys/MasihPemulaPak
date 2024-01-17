@@ -1,0 +1,74 @@
+
+
+.card-img-top {
+    width: 50%;
+    height: auto; 
+} 
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%); 
+    color: #444; 
+}
+
+nav.navbar {
+    background-color: #000;
+}
+
+nav.navbar a.navbar-brand,
+nav.navbar a.nav-link {
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s ease-in-out, 0.3s ease-in-out;
+}
+        
+.navbar-brand:hover{
+    padding-right: 5px;
+}
+
+nav.navbar a.navbar-brand:hover,
+nav.navbar a.nav-link:hover {
+    background-color: #444;
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
+.btn-primary{
+    background-color: #000;
+    border-color: #fff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-primary:hover{
+    text-decoration: none;
+    border-color: #000;
+    background-color: transparent;
+    color: #000;
+}
+
+.card.bestseller{
+    border-radius: 15px;
+    box-shadow: 0 4px 8px #888888;
+    color: #000;
+    transition: 0.3s;
+}
+
+.card-link:hover img,
+.card.bestseller:hover img{
+    transform: scale(1.1);
+}
+ 
+.card.bestseller:hover{
+    box-shadow: 0px 5px 10px 10px #888888;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../Red_Hat_Display/static/RedHatDisplay-Regular.ttf');
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
